@@ -18,7 +18,9 @@ You may also see any lint errors in the console.
 
 ## Clone the Repository
  If you haven't already cloned the repository, you'll need to do so to work locally.
+ 
  `git clone <repository_url>`
+
  `cd <repository_name>`
 
 ## Create a New Branch: Create a new branch for your changes.
