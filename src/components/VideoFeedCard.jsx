@@ -15,7 +15,7 @@ import {
 
 AOS.init();
 
-function HeroCardSection() {
+function VideoFeedCard() {
     const dummyData = [
         {
             title: "Card One",
@@ -101,7 +101,7 @@ function HeroCardSection() {
     return (
         <>
             <div className='flex flex-row justify-between w-11/12 mx-auto mb-2'>
-                <h1 className='text-3xl hover:underline font-medium'>Images</h1>
+                <h1 className='text-3xl hover:underline font-medium'>Videos</h1>
                 <button className='text-lg hover:underline select-none font-medium'>View more...</button>
             </div>
 
@@ -152,4 +152,4 @@ function HeroCardSection() {
     )
 }
 
-export default HeroCardSection;
+export default VideoFeedCard;
