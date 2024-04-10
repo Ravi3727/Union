@@ -1,11 +1,23 @@
 import './App.css';
+import HeroSection from './components/HeroSection';
+import HeroCardSection from './components/HeroCardSection';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
 
 function App() {
-  return (
-    <div className="bg-gray-300 h-screen flex items-center justify-center text-6xl font-extrabold text-purple-600 font-serif content-center">
-      Welcome To <span className="ml-2 text-8xl text-green-600">UNION</span>
+  return <>
+    <div className='h-full w-full bg-blue-400'>
+      <div className='h-screen w-8/12 flex justify-center items-center mx-auto bg-blue-400'>
+        <HeroSection />
+      </div>
+      <div className='w-11/12 ml-16 mt-3'>
+
+        <HeroCardSection />
+      </div>
     </div>
-  );
+  </>
 }
 
 export default App;
