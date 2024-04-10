@@ -36,3 +36,138 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #000000
+}
+
+.padding {
+  padding: 100px;
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+.card-img-top{
+  height:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+.card-no-border .card {
+  border-color: #d7dfe3;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 5px 20px rgba(242, 241, 248, 0.953);
+  box-shadow: 0px 5px 20px rgba(242, 241, 248, 0.953)
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem
+}
+
+.pro-img {
+  margin-top: -80px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+.little-profile .pro-img img {
+  width: 128px;
+  height: 128px;
+  -webkit-box-shadow: 0 0 15px rgba(242, 241, 248, 0.953);
+  box-shadow: 0 0 15px rgba(242, 241, 248, 0.953);
+  border-radius: 100%
+}
+
+html body .m-b-0 {
+  margin-bottom: 0px
+}
+
+h3 {
+  line-height: 30px;
+  font-size: 21px
+}
+
+.btn-rounded.btn-md {
+  padding: 12px 35px;
+  font-size: 16px;
+}
+
+html body .m-t-10 {
+  margin-top: 10px;
+  display: inline;
+}
+
+.btn-primary,
+.btn-primary.disabled,.btn-primary.new-btn{
+  background: #7460ee;
+  border: 1px solid #7460ee;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(242, 241, 248, 0.953), 0 3px 1px -2px rgba(242, 241, 248, 0.953), 0 1px 5px 0 rgba(242, 241, 248, 0.953);
+  box-shadow: 0 2px 2px 0 rgba(242, 241, 248, 0.953), 0 3px 1px -2px rgba(242, 241, 248, 0.953), 0 1px 5px 0 rgba(242, 241, 248, 0.953);
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  margin-left: 100px; 
+  margin-right: 100px;
+  
+  
+}
+
+.btn-rounded {
+  border-radius: 60px;
+  padding: 7px 18px;
+  
+
+}
+
+.m-t-20 {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e7ebed;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+small{
+  color: #e7ebed;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+
+p {
+  color: #e7ebed;
+  margin-top: 0;
+  margin-bottom: 3rem
+}
+
+.new-btn {
+  
+  margin-right: 200px;
+  
+}
