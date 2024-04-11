@@ -1,10 +1,11 @@
 import './App.css';
+import FeedsPage from '../src/Pages/FeedsPage'
+// import EventsPage from './Pages/EventsPage';
 
 function App() {
   return (
-    <div className="bg-gray-300 h-screen flex items-center justify-center text-6xl font-extrabold text-purple-600 font-serif content-center">
-      Welcome To <span className="ml-2 text-8xl text-green-600">UNION</span>
-    </div>
+    <FeedsPage />
+    // <EventsPage />
   );
 }
 
