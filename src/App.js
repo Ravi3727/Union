@@ -1,4 +1,5 @@
 import './App.css';
+import ProfileCard from './components/creatorprofilecard';
 import HeroSection from './components/HeroSection';
 import HeroCardSection from './components/HeroCardSection';
 import AOS from 'aos';
@@ -9,6 +10,10 @@ AOS.init();
 
 function App() {
   return <>
+    <div>
+      <ProfileCard />
+    </div>
+  
     <div className='h-full w-full bg-blue-400 select-none flex flex-col gap-3'>
       <div className='h-screen w-8/12 flex justify-center items-center mx-auto bg-blue-400'>
         <HeroSection />
