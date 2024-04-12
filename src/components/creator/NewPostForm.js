@@ -96,7 +96,7 @@ export default function NewPostForm() {
               <IconButton variant="soft" color="primary" size="sm">
                 <BadgeRoundedIcon />
               </IconButton>
-              <Typography level="title-lg"> Union </Typography>
+              <Typography level="title-lg"> Cre8Hub </Typography>
             </Box>
             <ColorSchemeToggle />
           </Box>

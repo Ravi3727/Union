@@ -174,7 +174,7 @@ export default function Navbar() {
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            Union
+            Cre8Hub
           </Typography>
           <Search>
             <SearchIconWrapper>
@@ -202,9 +202,7 @@ export default function Navbar() {
               aria-label="show 17 new notifications"
               color="inherit"
             >
-              <Badge badgeContent={17} color="error">
-                <NotificationsIcon />
-              </Badge>
+              <p>Explore</p>
             </IconButton>
             <IconButton
               size="large"
