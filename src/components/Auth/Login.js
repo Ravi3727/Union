@@ -126,7 +126,7 @@ export default function Login() {
                   Sign in
                 </Typography>
                 <Typography level="body-sm">
-                  New to Union?{" "}
+                  New to Cre8Hub?{" "}
                   <Link href="/signup" level="title-sm">
                     Sign up!
                   </Link>
@@ -193,7 +193,7 @@ export default function Login() {
           </Box>
           <Box component="footer" sx={{ py: 3 }}>
             <Typography level="body-xs" textAlign="center">
-              © Union {new Date().getFullYear()}
+              © Cre8Hub {new Date().getFullYear()}
             </Typography>
           </Box>
         </Box>

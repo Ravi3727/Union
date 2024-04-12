@@ -92,7 +92,7 @@ export default function Signup() {
               <IconButton variant="soft" color="primary" size="sm">
                 <BadgeRoundedIcon />
               </IconButton>
-              <Typography level="title-lg"> Union </Typography>
+              <Typography level="title-lg"> Cre8Hub </Typography>
             </Box>
             <ColorSchemeToggle />
           </Box>
@@ -189,7 +189,7 @@ export default function Signup() {
           </Box>
           <Box component="footer" sx={{ py: 3 }}>
             <Typography level="body-xs" textAlign="center">
-              © Union {new Date().getFullYear()}
+              © Cre8Hub {new Date().getFullYear()}
             </Typography>
           </Box>
         </Box>
